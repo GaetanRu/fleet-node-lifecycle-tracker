@@ -1,0 +1,3496 @@
+{
+  "generated_at": "2026-06-12T13:22:25Z",
+  "nodes": [
+    {
+      "node_id": "node-001",
+      "rack": "R02",
+      "datacenter": "DC-West-2",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-02T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-002",
+      "rack": "R03",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-13T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-003",
+      "rack": "R04",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-13T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-004",
+      "rack": "R05",
+      "datacenter": "DC-East-1",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-06T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-005",
+      "rack": "R06",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-10T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-006",
+      "rack": "R07",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-13T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-007",
+      "rack": "R08",
+      "datacenter": "DC-West-2",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "REPAIRED",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-008",
+      "rack": "R01",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-03T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-009",
+      "rack": "R02",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-31T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-010",
+      "rack": "R03",
+      "datacenter": "DC-East-1",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-18T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-011",
+      "rack": "R04",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "REPAIRED",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-012",
+      "rack": "R05",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "TICKETED",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-013",
+      "rack": "R06",
+      "datacenter": "DC-West-2",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "DOWN",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-014",
+      "rack": "R07",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-07T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-015",
+      "rack": "R08",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-24T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-016",
+      "rack": "R01",
+      "datacenter": "DC-East-1",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "DECOMMISSIONED",
+      "state_since": "2026-05-17T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-017",
+      "rack": "R02",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-05T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-018",
+      "rack": "R03",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-01T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-019",
+      "rack": "R04",
+      "datacenter": "DC-West-2",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-020",
+      "rack": "R05",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "IN_REPAIR",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-021",
+      "rack": "R06",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "IN_REPAIR",
+      "state_since": "2026-06-09T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-022",
+      "rack": "R07",
+      "datacenter": "DC-East-1",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "IN_REPAIR",
+      "state_since": "2026-06-09T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-023",
+      "rack": "R08",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-08T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-024",
+      "rack": "R01",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-13T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-025",
+      "rack": "R02",
+      "datacenter": "DC-West-2",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-07T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-026",
+      "rack": "R03",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "REINTEGRATING",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-027",
+      "rack": "R04",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-06T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-028",
+      "rack": "R05",
+      "datacenter": "DC-East-1",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-13T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-029",
+      "rack": "R06",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-24T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-030",
+      "rack": "R07",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "DECOMMISSIONED",
+      "state_since": "2026-06-04T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-031",
+      "rack": "R08",
+      "datacenter": "DC-West-2",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-29T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-032",
+      "rack": "R01",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "REPAIRED",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-033",
+      "rack": "R02",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-01T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-034",
+      "rack": "R03",
+      "datacenter": "DC-East-1",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "DOWN",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-035",
+      "rack": "R04",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-30T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-036",
+      "rack": "R05",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-08T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-037",
+      "rack": "R06",
+      "datacenter": "DC-West-2",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-13T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-038",
+      "rack": "R07",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "IN_REPAIR",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-039",
+      "rack": "R08",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-13T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-040",
+      "rack": "R01",
+      "datacenter": "DC-East-1",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-30T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    }
+  ],
+  "transitions": [
+    {
+      "id": 1,
+      "node_id": "node-001",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 2,
+      "node_id": "node-002",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 3,
+      "node_id": "node-003",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 4,
+      "node_id": "node-004",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 5,
+      "node_id": "node-005",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 6,
+      "node_id": "node-006",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 7,
+      "node_id": "node-007",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 8,
+      "node_id": "node-008",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 9,
+      "node_id": "node-009",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 10,
+      "node_id": "node-010",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 11,
+      "node_id": "node-011",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 12,
+      "node_id": "node-012",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 13,
+      "node_id": "node-013",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 14,
+      "node_id": "node-014",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 15,
+      "node_id": "node-015",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 16,
+      "node_id": "node-016",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 17,
+      "node_id": "node-017",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 18,
+      "node_id": "node-018",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 19,
+      "node_id": "node-019",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 20,
+      "node_id": "node-020",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 21,
+      "node_id": "node-021",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 22,
+      "node_id": "node-022",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 23,
+      "node_id": "node-023",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 24,
+      "node_id": "node-024",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 25,
+      "node_id": "node-025",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 26,
+      "node_id": "node-026",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 27,
+      "node_id": "node-027",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 28,
+      "node_id": "node-028",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 29,
+      "node_id": "node-029",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 30,
+      "node_id": "node-030",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 31,
+      "node_id": "node-031",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 32,
+      "node_id": "node-032",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 33,
+      "node_id": "node-033",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 34,
+      "node_id": "node-034",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 35,
+      "node_id": "node-035",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 36,
+      "node_id": "node-036",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 37,
+      "node_id": "node-037",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 38,
+      "node_id": "node-038",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 39,
+      "node_id": "node-039",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 40,
+      "node_id": "node-040",
+      "from_state": null,
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "system",
+      "notes": "Node provisioned"
+    },
+    {
+      "id": 41,
+      "node_id": "node-010",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Thermal throttling detected on GPU 3 - node pulled from pool"
+    },
+    {
+      "id": 42,
+      "node_id": "node-004",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Thermal throttling detected on GPU 3 - node pulled from pool"
+    },
+    {
+      "id": 43,
+      "node_id": "node-011",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-13T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: NVLink degradation across 2 GPUs - node pulled from pool"
+    },
+    {
+      "id": 44,
+      "node_id": "node-010",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-14T00:00:00Z",
+      "actor": "CoreWeave",
+      "notes": "Ticket TCK-1000 opened with CoreWeave (SLA 72h)"
+    },
+    {
+      "id": 45,
+      "node_id": "node-004",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-14T00:00:00Z",
+      "actor": "Crusoe",
+      "notes": "Ticket TCK-1001 opened with Crusoe (SLA 72h)"
+    },
+    {
+      "id": 46,
+      "node_id": "node-011",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-14T00:00:00Z",
+      "actor": "CoreWeave",
+      "notes": "Ticket TCK-1002 opened with CoreWeave (SLA 24h)"
+    },
+    {
+      "id": 47,
+      "node_id": "node-016",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-14T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Node unreachable - NIC failure suspected - node pulled from pool"
+    },
+    {
+      "id": 48,
+      "node_id": "node-010",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-15T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 49,
+      "node_id": "node-004",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-15T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 50,
+      "node_id": "node-011",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-15T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 51,
+      "node_id": "node-016",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-15T00:00:00Z",
+      "actor": "InternalDC",
+      "notes": "Ticket TCK-1003 opened with InternalDC (SLA 48h)"
+    },
+    {
+      "id": 52,
+      "node_id": "node-027",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-15T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Node unreachable - NIC failure suspected - node pulled from pool"
+    },
+    {
+      "id": 53,
+      "node_id": "node-010",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-16T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 54,
+      "node_id": "node-004",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-16T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 55,
+      "node_id": "node-011",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-16T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 56,
+      "node_id": "node-016",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-16T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 57,
+      "node_id": "node-027",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-16T00:00:00Z",
+      "actor": "Lambda",
+      "notes": "Ticket TCK-1004 opened with Lambda (SLA 48h)"
+    },
+    {
+      "id": 58,
+      "node_id": "node-035",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-16T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: NVLink degradation across 2 GPUs - node pulled from pool"
+    },
+    {
+      "id": 59,
+      "node_id": "node-010",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-17T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 60,
+      "node_id": "node-004",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-17T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 61,
+      "node_id": "node-011",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-17T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 62,
+      "node_id": "node-016",
+      "from_state": "IN_REPAIR",
+      "to_state": "DECOMMISSIONED",
+      "timestamp": "2026-05-17T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Hardware unrepairable - decommissioned"
+    },
+    {
+      "id": 63,
+      "node_id": "node-027",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-17T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 64,
+      "node_id": "node-035",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-17T00:00:00Z",
+      "actor": "Lambda",
+      "notes": "Ticket TCK-1005 opened with Lambda (SLA 72h)"
+    },
+    {
+      "id": 65,
+      "node_id": "node-010",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-18T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 66,
+      "node_id": "node-004",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-18T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 67,
+      "node_id": "node-011",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-18T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 68,
+      "node_id": "node-035",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-18T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 69,
+      "node_id": "node-035",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-19T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 70,
+      "node_id": "node-029",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-19T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: NVLink degradation across 2 GPUs - node pulled from pool"
+    },
+    {
+      "id": 71,
+      "node_id": "node-015",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-19T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Power supply unit fault - node pulled from pool"
+    },
+    {
+      "id": 72,
+      "node_id": "node-027",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-20T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 73,
+      "node_id": "node-035",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-20T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 74,
+      "node_id": "node-029",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-20T00:00:00Z",
+      "actor": "Crusoe",
+      "notes": "Ticket TCK-1006 opened with Crusoe (SLA 72h)"
+    },
+    {
+      "id": 75,
+      "node_id": "node-015",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-20T00:00:00Z",
+      "actor": "Crusoe",
+      "notes": "Ticket TCK-1007 opened with Crusoe (SLA 72h)"
+    },
+    {
+      "id": 76,
+      "node_id": "node-027",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-21T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 77,
+      "node_id": "node-035",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-21T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 78,
+      "node_id": "node-029",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-21T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 79,
+      "node_id": "node-015",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-21T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 80,
+      "node_id": "node-007",
+      "from_state": "HEALTHY",
+      "to_state": "DEGRADED",
+      "timestamp": "2026-05-21T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Thermal throttling detected on GPU 3"
+    },
+    {
+      "id": 81,
+      "node_id": "node-007",
+      "from_state": "DEGRADED",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-21T02:00:00Z",
+      "actor": "monitoring",
+      "notes": "Escalated to DOWN - node pulled from pool"
+    },
+    {
+      "id": 82,
+      "node_id": "node-027",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-22T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 83,
+      "node_id": "node-029",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-22T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 84,
+      "node_id": "node-015",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-22T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 85,
+      "node_id": "node-007",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-22T00:00:00Z",
+      "actor": "Lambda",
+      "notes": "Ticket TCK-1008 opened with Lambda (SLA 48h)"
+    },
+    {
+      "id": 86,
+      "node_id": "node-017",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-22T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Disk I/O errors on local NVMe - node pulled from pool"
+    },
+    {
+      "id": 87,
+      "node_id": "node-029",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-23T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 88,
+      "node_id": "node-015",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-23T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 89,
+      "node_id": "node-007",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-23T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 90,
+      "node_id": "node-017",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-23T00:00:00Z",
+      "actor": "Lambda",
+      "notes": "Ticket TCK-1009 opened with Lambda (SLA 72h)"
+    },
+    {
+      "id": 91,
+      "node_id": "node-029",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-24T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 92,
+      "node_id": "node-015",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-24T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 93,
+      "node_id": "node-017",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-24T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 94,
+      "node_id": "node-009",
+      "from_state": "HEALTHY",
+      "to_state": "DEGRADED",
+      "timestamp": "2026-05-24T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: GPU ECC error rate exceeding threshold"
+    },
+    {
+      "id": 96,
+      "node_id": "node-031",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-24T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Power supply unit fault - node pulled from pool"
+    },
+    {
+      "id": 95,
+      "node_id": "node-009",
+      "from_state": "DEGRADED",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-24T02:00:00Z",
+      "actor": "monitoring",
+      "notes": "Escalated to DOWN - node pulled from pool"
+    },
+    {
+      "id": 97,
+      "node_id": "node-017",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-25T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 98,
+      "node_id": "node-009",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-25T00:00:00Z",
+      "actor": "Lambda",
+      "notes": "Ticket TCK-1010 opened with Lambda (SLA 72h)"
+    },
+    {
+      "id": 99,
+      "node_id": "node-031",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-25T00:00:00Z",
+      "actor": "InternalDC",
+      "notes": "Ticket TCK-1011 opened with InternalDC (SLA 48h)"
+    },
+    {
+      "id": 100,
+      "node_id": "node-025",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-25T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Memory ECC uncorrectable errors - node pulled from pool"
+    },
+    {
+      "id": 101,
+      "node_id": "node-035",
+      "from_state": "HEALTHY",
+      "to_state": "DEGRADED",
+      "timestamp": "2026-05-25T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Disk I/O errors on local NVMe"
+    },
+    {
+      "id": 103,
+      "node_id": "node-040",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-25T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: GPU ECC error rate exceeding threshold - node pulled from pool"
+    },
+    {
+      "id": 102,
+      "node_id": "node-035",
+      "from_state": "DEGRADED",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-25T02:00:00Z",
+      "actor": "monitoring",
+      "notes": "Escalated to DOWN - node pulled from pool"
+    },
+    {
+      "id": 104,
+      "node_id": "node-007",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-26T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 105,
+      "node_id": "node-017",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-26T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 106,
+      "node_id": "node-009",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-26T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 107,
+      "node_id": "node-031",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-26T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 108,
+      "node_id": "node-025",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-26T00:00:00Z",
+      "actor": "Lambda",
+      "notes": "Ticket TCK-1012 opened with Lambda (SLA 24h)"
+    },
+    {
+      "id": 109,
+      "node_id": "node-035",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-26T00:00:00Z",
+      "actor": "InternalDC",
+      "notes": "Ticket TCK-1013 opened with InternalDC (SLA 48h)"
+    },
+    {
+      "id": 110,
+      "node_id": "node-040",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-26T00:00:00Z",
+      "actor": "InternalDC",
+      "notes": "Ticket TCK-1014 opened with InternalDC (SLA 24h)"
+    },
+    {
+      "id": 111,
+      "node_id": "node-022",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-26T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: NVLink degradation across 2 GPUs - node pulled from pool"
+    },
+    {
+      "id": 112,
+      "node_id": "node-013",
+      "from_state": "HEALTHY",
+      "to_state": "DEGRADED",
+      "timestamp": "2026-05-26T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: GPU ECC error rate exceeding threshold"
+    },
+    {
+      "id": 113,
+      "node_id": "node-013",
+      "from_state": "DEGRADED",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-26T02:00:00Z",
+      "actor": "monitoring",
+      "notes": "Escalated to DOWN - node pulled from pool"
+    },
+    {
+      "id": 114,
+      "node_id": "node-007",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-27T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 115,
+      "node_id": "node-017",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-27T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 116,
+      "node_id": "node-031",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-27T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 117,
+      "node_id": "node-025",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-27T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 118,
+      "node_id": "node-035",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-27T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 119,
+      "node_id": "node-040",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-27T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 120,
+      "node_id": "node-022",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-27T00:00:00Z",
+      "actor": "Crusoe",
+      "notes": "Ticket TCK-1015 opened with Crusoe (SLA 72h)"
+    },
+    {
+      "id": 121,
+      "node_id": "node-013",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-27T00:00:00Z",
+      "actor": "CoreWeave",
+      "notes": "Ticket TCK-1016 opened with CoreWeave (SLA 72h)"
+    },
+    {
+      "id": 122,
+      "node_id": "node-033",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-27T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: GPU ECC error rate exceeding threshold - node pulled from pool"
+    },
+    {
+      "id": 123,
+      "node_id": "node-026",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-27T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Power supply unit fault - node pulled from pool"
+    },
+    {
+      "id": 124,
+      "node_id": "node-018",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-27T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: NVLink degradation across 2 GPUs - node pulled from pool"
+    },
+    {
+      "id": 125,
+      "node_id": "node-007",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-28T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 126,
+      "node_id": "node-031",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-28T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 127,
+      "node_id": "node-035",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-28T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 128,
+      "node_id": "node-040",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-28T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 129,
+      "node_id": "node-022",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-28T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 130,
+      "node_id": "node-013",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-28T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 131,
+      "node_id": "node-033",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-28T00:00:00Z",
+      "actor": "CoreWeave",
+      "notes": "Ticket TCK-1017 opened with CoreWeave (SLA 48h)"
+    },
+    {
+      "id": 132,
+      "node_id": "node-026",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-28T00:00:00Z",
+      "actor": "Crusoe",
+      "notes": "Ticket TCK-1018 opened with Crusoe (SLA 24h)"
+    },
+    {
+      "id": 133,
+      "node_id": "node-018",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-28T00:00:00Z",
+      "actor": "Crusoe",
+      "notes": "Ticket TCK-1019 opened with Crusoe (SLA 24h)"
+    },
+    {
+      "id": 134,
+      "node_id": "node-001",
+      "from_state": "HEALTHY",
+      "to_state": "DEGRADED",
+      "timestamp": "2026-05-28T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Thermal throttling detected on GPU 3"
+    },
+    {
+      "id": 136,
+      "node_id": "node-012",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-28T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Node unreachable - NIC failure suspected - node pulled from pool"
+    },
+    {
+      "id": 135,
+      "node_id": "node-001",
+      "from_state": "DEGRADED",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-28T02:00:00Z",
+      "actor": "monitoring",
+      "notes": "Escalated to DOWN - node pulled from pool"
+    },
+    {
+      "id": 137,
+      "node_id": "node-009",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-29T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 138,
+      "node_id": "node-031",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-29T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 139,
+      "node_id": "node-035",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-29T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 140,
+      "node_id": "node-040",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-29T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 141,
+      "node_id": "node-022",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-29T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 142,
+      "node_id": "node-013",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-29T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 143,
+      "node_id": "node-033",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-29T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 144,
+      "node_id": "node-026",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-29T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 145,
+      "node_id": "node-018",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-29T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 146,
+      "node_id": "node-001",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-29T00:00:00Z",
+      "actor": "InternalDC",
+      "notes": "Ticket TCK-1020 opened with InternalDC (SLA 72h)"
+    },
+    {
+      "id": 147,
+      "node_id": "node-012",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-29T00:00:00Z",
+      "actor": "CoreWeave",
+      "notes": "Ticket TCK-1021 opened with CoreWeave (SLA 24h)"
+    },
+    {
+      "id": 148,
+      "node_id": "node-008",
+      "from_state": "HEALTHY",
+      "to_state": "DEGRADED",
+      "timestamp": "2026-05-29T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Node unreachable - NIC failure suspected"
+    },
+    {
+      "id": 149,
+      "node_id": "node-008",
+      "from_state": "DEGRADED",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-29T02:00:00Z",
+      "actor": "monitoring",
+      "notes": "Escalated to DOWN - node pulled from pool"
+    },
+    {
+      "id": 150,
+      "node_id": "node-009",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-30T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 151,
+      "node_id": "node-025",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-30T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 152,
+      "node_id": "node-035",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-30T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 153,
+      "node_id": "node-040",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-30T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 154,
+      "node_id": "node-022",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-30T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 155,
+      "node_id": "node-013",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-30T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 156,
+      "node_id": "node-033",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-30T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 157,
+      "node_id": "node-026",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-30T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 158,
+      "node_id": "node-018",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-30T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 159,
+      "node_id": "node-001",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-30T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 160,
+      "node_id": "node-012",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-30T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 161,
+      "node_id": "node-008",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-05-30T00:00:00Z",
+      "actor": "Crusoe",
+      "notes": "Ticket TCK-1022 opened with Crusoe (SLA 48h)"
+    },
+    {
+      "id": 162,
+      "node_id": "node-009",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-31T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 163,
+      "node_id": "node-025",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-31T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 164,
+      "node_id": "node-022",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-31T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 165,
+      "node_id": "node-013",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-05-31T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 166,
+      "node_id": "node-033",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-31T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 167,
+      "node_id": "node-026",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-31T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 168,
+      "node_id": "node-018",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-05-31T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 169,
+      "node_id": "node-001",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-31T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 170,
+      "node_id": "node-012",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-05-31T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 171,
+      "node_id": "node-008",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-05-31T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 172,
+      "node_id": "node-017",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-05-31T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Thermal throttling detected on GPU 3 - node pulled from pool"
+    },
+    {
+      "id": 173,
+      "node_id": "node-025",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-01T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 174,
+      "node_id": "node-033",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-01T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 175,
+      "node_id": "node-026",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-01T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 176,
+      "node_id": "node-018",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-01T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 177,
+      "node_id": "node-001",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-01T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 178,
+      "node_id": "node-012",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-01T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 179,
+      "node_id": "node-008",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-01T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 180,
+      "node_id": "node-017",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-01T00:00:00Z",
+      "actor": "InternalDC",
+      "notes": "Ticket TCK-1023 opened with InternalDC (SLA 24h)"
+    },
+    {
+      "id": 181,
+      "node_id": "node-027",
+      "from_state": "HEALTHY",
+      "to_state": "DEGRADED",
+      "timestamp": "2026-06-01T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Power supply unit fault"
+    },
+    {
+      "id": 183,
+      "node_id": "node-030",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-01T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: NVLink degradation across 2 GPUs - node pulled from pool"
+    },
+    {
+      "id": 184,
+      "node_id": "node-004",
+      "from_state": "HEALTHY",
+      "to_state": "DEGRADED",
+      "timestamp": "2026-06-01T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Thermal throttling detected on GPU 3"
+    },
+    {
+      "id": 182,
+      "node_id": "node-027",
+      "from_state": "DEGRADED",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-01T02:00:00Z",
+      "actor": "monitoring",
+      "notes": "Escalated to DOWN - node pulled from pool"
+    },
+    {
+      "id": 185,
+      "node_id": "node-004",
+      "from_state": "DEGRADED",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-01T02:00:00Z",
+      "actor": "monitoring",
+      "notes": "Escalated to DOWN - node pulled from pool"
+    },
+    {
+      "id": 186,
+      "node_id": "node-001",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-02T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 187,
+      "node_id": "node-012",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-02T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 188,
+      "node_id": "node-008",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-02T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 189,
+      "node_id": "node-017",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-02T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 190,
+      "node_id": "node-027",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-02T00:00:00Z",
+      "actor": "CoreWeave",
+      "notes": "Ticket TCK-1024 opened with CoreWeave (SLA 72h)"
+    },
+    {
+      "id": 191,
+      "node_id": "node-030",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-02T00:00:00Z",
+      "actor": "InternalDC",
+      "notes": "Ticket TCK-1025 opened with InternalDC (SLA 48h)"
+    },
+    {
+      "id": 192,
+      "node_id": "node-004",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-02T00:00:00Z",
+      "actor": "CoreWeave",
+      "notes": "Ticket TCK-1026 opened with CoreWeave (SLA 48h)"
+    },
+    {
+      "id": 193,
+      "node_id": "node-025",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-02T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Disk I/O errors on local NVMe - node pulled from pool"
+    },
+    {
+      "id": 194,
+      "node_id": "node-014",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-02T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Disk I/O errors on local NVMe - node pulled from pool"
+    },
+    {
+      "id": 195,
+      "node_id": "node-008",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-03T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 196,
+      "node_id": "node-017",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-03T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 197,
+      "node_id": "node-027",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-03T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 198,
+      "node_id": "node-030",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-03T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 199,
+      "node_id": "node-004",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-03T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 200,
+      "node_id": "node-025",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-03T00:00:00Z",
+      "actor": "InternalDC",
+      "notes": "Ticket TCK-1027 opened with InternalDC (SLA 24h)"
+    },
+    {
+      "id": 201,
+      "node_id": "node-014",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-03T00:00:00Z",
+      "actor": "InternalDC",
+      "notes": "Ticket TCK-1028 opened with InternalDC (SLA 48h)"
+    },
+    {
+      "id": 202,
+      "node_id": "node-036",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-03T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Power supply unit fault - node pulled from pool"
+    },
+    {
+      "id": 203,
+      "node_id": "node-023",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-03T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: NVLink degradation across 2 GPUs - node pulled from pool"
+    },
+    {
+      "id": 204,
+      "node_id": "node-007",
+      "from_state": "HEALTHY",
+      "to_state": "DEGRADED",
+      "timestamp": "2026-06-03T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Disk I/O errors on local NVMe"
+    },
+    {
+      "id": 205,
+      "node_id": "node-007",
+      "from_state": "DEGRADED",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-03T02:00:00Z",
+      "actor": "monitoring",
+      "notes": "Escalated to DOWN - node pulled from pool"
+    },
+    {
+      "id": 206,
+      "node_id": "node-017",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-04T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 207,
+      "node_id": "node-027",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-04T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 208,
+      "node_id": "node-030",
+      "from_state": "IN_REPAIR",
+      "to_state": "DECOMMISSIONED",
+      "timestamp": "2026-06-04T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Hardware unrepairable - decommissioned"
+    },
+    {
+      "id": 209,
+      "node_id": "node-004",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-04T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 210,
+      "node_id": "node-025",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-04T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 211,
+      "node_id": "node-014",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-04T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 212,
+      "node_id": "node-036",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-04T00:00:00Z",
+      "actor": "CoreWeave",
+      "notes": "Ticket TCK-1029 opened with CoreWeave (SLA 48h)"
+    },
+    {
+      "id": 213,
+      "node_id": "node-023",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-04T00:00:00Z",
+      "actor": "Crusoe",
+      "notes": "Ticket TCK-1030 opened with Crusoe (SLA 24h)"
+    },
+    {
+      "id": 214,
+      "node_id": "node-007",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-04T00:00:00Z",
+      "actor": "CoreWeave",
+      "notes": "Ticket TCK-1031 opened with CoreWeave (SLA 72h)"
+    },
+    {
+      "id": 215,
+      "node_id": "node-017",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-05T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 216,
+      "node_id": "node-027",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-05T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 217,
+      "node_id": "node-004",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-05T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 218,
+      "node_id": "node-025",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-05T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 219,
+      "node_id": "node-014",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-05T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 220,
+      "node_id": "node-036",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-05T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 221,
+      "node_id": "node-023",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-05T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 222,
+      "node_id": "node-007",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-05T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 223,
+      "node_id": "node-005",
+      "from_state": "HEALTHY",
+      "to_state": "DEGRADED",
+      "timestamp": "2026-06-05T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Power supply unit fault"
+    },
+    {
+      "id": 225,
+      "node_id": "node-034",
+      "from_state": "HEALTHY",
+      "to_state": "DEGRADED",
+      "timestamp": "2026-06-05T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Disk I/O errors on local NVMe"
+    },
+    {
+      "id": 224,
+      "node_id": "node-005",
+      "from_state": "DEGRADED",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-05T02:00:00Z",
+      "actor": "monitoring",
+      "notes": "Escalated to DOWN - node pulled from pool"
+    },
+    {
+      "id": 226,
+      "node_id": "node-034",
+      "from_state": "DEGRADED",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-05T02:00:00Z",
+      "actor": "monitoring",
+      "notes": "Escalated to DOWN - node pulled from pool"
+    },
+    {
+      "id": 227,
+      "node_id": "node-027",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-06T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 228,
+      "node_id": "node-004",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-06T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 229,
+      "node_id": "node-025",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-06T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 230,
+      "node_id": "node-014",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-06T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 231,
+      "node_id": "node-036",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-06T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 232,
+      "node_id": "node-023",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-06T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 233,
+      "node_id": "node-007",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-06T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 234,
+      "node_id": "node-005",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-06T00:00:00Z",
+      "actor": "Crusoe",
+      "notes": "Ticket TCK-1032 opened with Crusoe (SLA 24h)"
+    },
+    {
+      "id": 235,
+      "node_id": "node-034",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-06T00:00:00Z",
+      "actor": "Crusoe",
+      "notes": "Ticket TCK-1033 opened with Crusoe (SLA 24h)"
+    },
+    {
+      "id": 236,
+      "node_id": "node-019",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-06T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Memory ECC uncorrectable errors - node pulled from pool"
+    },
+    {
+      "id": 237,
+      "node_id": "node-013",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-06T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Power supply unit fault - node pulled from pool"
+    },
+    {
+      "id": 238,
+      "node_id": "node-025",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-07T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 239,
+      "node_id": "node-014",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-07T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 240,
+      "node_id": "node-036",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-07T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 241,
+      "node_id": "node-023",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-07T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 242,
+      "node_id": "node-007",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-07T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 243,
+      "node_id": "node-005",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-07T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 244,
+      "node_id": "node-034",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-07T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 245,
+      "node_id": "node-019",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-07T00:00:00Z",
+      "actor": "Crusoe",
+      "notes": "Ticket TCK-1034 opened with Crusoe (SLA 24h)"
+    },
+    {
+      "id": 246,
+      "node_id": "node-013",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-07T00:00:00Z",
+      "actor": "CoreWeave",
+      "notes": "Ticket TCK-1035 opened with CoreWeave (SLA 48h)"
+    },
+    {
+      "id": 247,
+      "node_id": "node-026",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-07T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Disk I/O errors on local NVMe - node pulled from pool"
+    },
+    {
+      "id": 248,
+      "node_id": "node-021",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-07T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Thermal throttling detected on GPU 3 - node pulled from pool"
+    },
+    {
+      "id": 249,
+      "node_id": "node-022",
+      "from_state": "HEALTHY",
+      "to_state": "DEGRADED",
+      "timestamp": "2026-06-07T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Node unreachable - NIC failure suspected"
+    },
+    {
+      "id": 250,
+      "node_id": "node-022",
+      "from_state": "DEGRADED",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-07T02:00:00Z",
+      "actor": "monitoring",
+      "notes": "Escalated to DOWN - node pulled from pool"
+    },
+    {
+      "id": 251,
+      "node_id": "node-036",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-08T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 252,
+      "node_id": "node-023",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-08T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 253,
+      "node_id": "node-007",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-08T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 254,
+      "node_id": "node-005",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-08T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 255,
+      "node_id": "node-034",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-08T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 256,
+      "node_id": "node-019",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-08T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 257,
+      "node_id": "node-013",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-08T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 258,
+      "node_id": "node-026",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-08T00:00:00Z",
+      "actor": "InternalDC",
+      "notes": "Ticket TCK-1036 opened with InternalDC (SLA 72h)"
+    },
+    {
+      "id": 259,
+      "node_id": "node-021",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-08T00:00:00Z",
+      "actor": "InternalDC",
+      "notes": "Ticket TCK-1037 opened with InternalDC (SLA 24h)"
+    },
+    {
+      "id": 260,
+      "node_id": "node-022",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-08T00:00:00Z",
+      "actor": "InternalDC",
+      "notes": "Ticket TCK-1038 opened with InternalDC (SLA 48h)"
+    },
+    {
+      "id": 261,
+      "node_id": "node-011",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-08T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: GPU ECC error rate exceeding threshold - node pulled from pool"
+    },
+    {
+      "id": 262,
+      "node_id": "node-032",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-08T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Node unreachable - NIC failure suspected - node pulled from pool"
+    },
+    {
+      "id": 263,
+      "node_id": "node-007",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-08T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Thermal throttling detected on GPU 3 - node pulled from pool"
+    },
+    {
+      "id": 264,
+      "node_id": "node-005",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-09T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 265,
+      "node_id": "node-034",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-09T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 266,
+      "node_id": "node-019",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-09T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 267,
+      "node_id": "node-013",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-09T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 268,
+      "node_id": "node-026",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-09T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 269,
+      "node_id": "node-021",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-09T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 270,
+      "node_id": "node-022",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-09T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 271,
+      "node_id": "node-011",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-09T00:00:00Z",
+      "actor": "Crusoe",
+      "notes": "Ticket TCK-1039 opened with Crusoe (SLA 48h)"
+    },
+    {
+      "id": 272,
+      "node_id": "node-032",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-09T00:00:00Z",
+      "actor": "CoreWeave",
+      "notes": "Ticket TCK-1040 opened with CoreWeave (SLA 48h)"
+    },
+    {
+      "id": 273,
+      "node_id": "node-007",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-09T00:00:00Z",
+      "actor": "CoreWeave",
+      "notes": "Ticket TCK-1041 opened with CoreWeave (SLA 48h)"
+    },
+    {
+      "id": 274,
+      "node_id": "node-020",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-09T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: GPU ECC error rate exceeding threshold - node pulled from pool"
+    },
+    {
+      "id": 275,
+      "node_id": "node-038",
+      "from_state": "HEALTHY",
+      "to_state": "DEGRADED",
+      "timestamp": "2026-06-09T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Power supply unit fault"
+    },
+    {
+      "id": 276,
+      "node_id": "node-038",
+      "from_state": "DEGRADED",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-09T02:00:00Z",
+      "actor": "monitoring",
+      "notes": "Escalated to DOWN - node pulled from pool"
+    },
+    {
+      "id": 277,
+      "node_id": "node-005",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-10T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 278,
+      "node_id": "node-034",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-10T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 279,
+      "node_id": "node-019",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-10T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 280,
+      "node_id": "node-013",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-10T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 281,
+      "node_id": "node-026",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-10T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 282,
+      "node_id": "node-011",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-10T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 283,
+      "node_id": "node-032",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-10T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 284,
+      "node_id": "node-007",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-10T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 285,
+      "node_id": "node-020",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-10T00:00:00Z",
+      "actor": "InternalDC",
+      "notes": "Ticket TCK-1042 opened with InternalDC (SLA 24h)"
+    },
+    {
+      "id": 286,
+      "node_id": "node-038",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-10T00:00:00Z",
+      "actor": "Lambda",
+      "notes": "Ticket TCK-1043 opened with Lambda (SLA 72h)"
+    },
+    {
+      "id": 287,
+      "node_id": "node-012",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-10T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: NVLink degradation across 2 GPUs - node pulled from pool"
+    },
+    {
+      "id": 288,
+      "node_id": "node-019",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-11T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 289,
+      "node_id": "node-013",
+      "from_state": "REINTEGRATING",
+      "to_state": "HEALTHY",
+      "timestamp": "2026-06-11T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Validation passed - node back in service"
+    },
+    {
+      "id": 290,
+      "node_id": "node-026",
+      "from_state": "REPAIRED",
+      "to_state": "REINTEGRATING",
+      "timestamp": "2026-06-11T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Running validation + re-joining scheduler pool"
+    },
+    {
+      "id": 291,
+      "node_id": "node-011",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-11T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 292,
+      "node_id": "node-032",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-11T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 293,
+      "node_id": "node-007",
+      "from_state": "IN_REPAIR",
+      "to_state": "REPAIRED",
+      "timestamp": "2026-06-11T00:00:00Z",
+      "actor": "ops-team",
+      "notes": "Repair completed, awaiting re-integration"
+    },
+    {
+      "id": 294,
+      "node_id": "node-020",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-11T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 295,
+      "node_id": "node-038",
+      "from_state": "TICKETED",
+      "to_state": "IN_REPAIR",
+      "timestamp": "2026-06-11T00:00:00Z",
+      "actor": "vendor",
+      "notes": "Repair started on-site"
+    },
+    {
+      "id": 296,
+      "node_id": "node-012",
+      "from_state": "DOWN",
+      "to_state": "TICKETED",
+      "timestamp": "2026-06-11T00:00:00Z",
+      "actor": "Lambda",
+      "notes": "Ticket TCK-1044 opened with Lambda (SLA 24h)"
+    },
+    {
+      "id": 297,
+      "node_id": "node-013",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-11T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: Disk I/O errors on local NVMe - node pulled from pool"
+    },
+    {
+      "id": 298,
+      "node_id": "node-034",
+      "from_state": "HEALTHY",
+      "to_state": "DOWN",
+      "timestamp": "2026-06-11T00:00:00Z",
+      "actor": "monitoring",
+      "notes": "Alert: GPU ECC error rate exceeding threshold - node pulled from pool"
+    }
+  ],
+  "tickets": [
+    {
+      "ticket_id": "TCK-1000",
+      "node_id": "node-010",
+      "provider": "CoreWeave",
+      "opened_at": "2026-05-14T00:00:00Z",
+      "closed_at": "2026-05-16T00:00:00Z",
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 72
+    },
+    {
+      "ticket_id": "TCK-1001",
+      "node_id": "node-004",
+      "provider": "Crusoe",
+      "opened_at": "2026-05-14T00:00:00Z",
+      "closed_at": "2026-05-16T00:00:00Z",
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 72
+    },
+    {
+      "ticket_id": "TCK-1002",
+      "node_id": "node-011",
+      "provider": "CoreWeave",
+      "opened_at": "2026-05-14T00:00:00Z",
+      "closed_at": "2026-05-16T00:00:00Z",
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 24
+    },
+    {
+      "ticket_id": "TCK-1003",
+      "node_id": "node-016",
+      "provider": "InternalDC",
+      "opened_at": "2026-05-15T00:00:00Z",
+      "closed_at": "2026-05-17T00:00:00Z",
+      "issue_summary": "Node unreachable - NIC failure suspected",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1004",
+      "node_id": "node-027",
+      "provider": "Lambda",
+      "opened_at": "2026-05-16T00:00:00Z",
+      "closed_at": "2026-05-20T00:00:00Z",
+      "issue_summary": "Node unreachable - NIC failure suspected",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1005",
+      "node_id": "node-035",
+      "provider": "Lambda",
+      "opened_at": "2026-05-17T00:00:00Z",
+      "closed_at": "2026-05-19T00:00:00Z",
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 72
+    },
+    {
+      "ticket_id": "TCK-1006",
+      "node_id": "node-029",
+      "provider": "Crusoe",
+      "opened_at": "2026-05-20T00:00:00Z",
+      "closed_at": "2026-05-22T00:00:00Z",
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 72
+    },
+    {
+      "ticket_id": "TCK-1007",
+      "node_id": "node-015",
+      "provider": "Crusoe",
+      "opened_at": "2026-05-20T00:00:00Z",
+      "closed_at": "2026-05-22T00:00:00Z",
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 72
+    },
+    {
+      "ticket_id": "TCK-1008",
+      "node_id": "node-007",
+      "provider": "Lambda",
+      "opened_at": "2026-05-22T00:00:00Z",
+      "closed_at": "2026-05-26T00:00:00Z",
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1009",
+      "node_id": "node-017",
+      "provider": "Lambda",
+      "opened_at": "2026-05-23T00:00:00Z",
+      "closed_at": "2026-05-25T00:00:00Z",
+      "issue_summary": "Disk I/O errors on local NVMe",
+      "sla_hours": 72
+    },
+    {
+      "ticket_id": "TCK-1010",
+      "node_id": "node-009",
+      "provider": "Lambda",
+      "opened_at": "2026-05-25T00:00:00Z",
+      "closed_at": "2026-05-29T00:00:00Z",
+      "issue_summary": "GPU ECC error rate exceeding threshold",
+      "sla_hours": 72
+    },
+    {
+      "ticket_id": "TCK-1011",
+      "node_id": "node-031",
+      "provider": "InternalDC",
+      "opened_at": "2026-05-25T00:00:00Z",
+      "closed_at": "2026-05-27T00:00:00Z",
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1012",
+      "node_id": "node-025",
+      "provider": "Lambda",
+      "opened_at": "2026-05-26T00:00:00Z",
+      "closed_at": "2026-05-30T00:00:00Z",
+      "issue_summary": "Memory ECC uncorrectable errors",
+      "sla_hours": 24
+    },
+    {
+      "ticket_id": "TCK-1013",
+      "node_id": "node-035",
+      "provider": "InternalDC",
+      "opened_at": "2026-05-26T00:00:00Z",
+      "closed_at": "2026-05-28T00:00:00Z",
+      "issue_summary": "Disk I/O errors on local NVMe",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1014",
+      "node_id": "node-040",
+      "provider": "InternalDC",
+      "opened_at": "2026-05-26T00:00:00Z",
+      "closed_at": "2026-05-28T00:00:00Z",
+      "issue_summary": "GPU ECC error rate exceeding threshold",
+      "sla_hours": 24
+    },
+    {
+      "ticket_id": "TCK-1015",
+      "node_id": "node-022",
+      "provider": "Crusoe",
+      "opened_at": "2026-05-27T00:00:00Z",
+      "closed_at": "2026-05-29T00:00:00Z",
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 72
+    },
+    {
+      "ticket_id": "TCK-1016",
+      "node_id": "node-013",
+      "provider": "CoreWeave",
+      "opened_at": "2026-05-27T00:00:00Z",
+      "closed_at": "2026-05-29T00:00:00Z",
+      "issue_summary": "GPU ECC error rate exceeding threshold",
+      "sla_hours": 72
+    },
+    {
+      "ticket_id": "TCK-1017",
+      "node_id": "node-033",
+      "provider": "CoreWeave",
+      "opened_at": "2026-05-28T00:00:00Z",
+      "closed_at": "2026-05-30T00:00:00Z",
+      "issue_summary": "GPU ECC error rate exceeding threshold",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1018",
+      "node_id": "node-026",
+      "provider": "Crusoe",
+      "opened_at": "2026-05-28T00:00:00Z",
+      "closed_at": "2026-05-30T00:00:00Z",
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 24
+    },
+    {
+      "ticket_id": "TCK-1019",
+      "node_id": "node-018",
+      "provider": "Crusoe",
+      "opened_at": "2026-05-28T00:00:00Z",
+      "closed_at": "2026-05-30T00:00:00Z",
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 24
+    },
+    {
+      "ticket_id": "TCK-1020",
+      "node_id": "node-001",
+      "provider": "InternalDC",
+      "opened_at": "2026-05-29T00:00:00Z",
+      "closed_at": "2026-05-31T00:00:00Z",
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 72
+    },
+    {
+      "ticket_id": "TCK-1021",
+      "node_id": "node-012",
+      "provider": "CoreWeave",
+      "opened_at": "2026-05-29T00:00:00Z",
+      "closed_at": "2026-05-31T00:00:00Z",
+      "issue_summary": "Node unreachable - NIC failure suspected",
+      "sla_hours": 24
+    },
+    {
+      "ticket_id": "TCK-1022",
+      "node_id": "node-008",
+      "provider": "Crusoe",
+      "opened_at": "2026-05-30T00:00:00Z",
+      "closed_at": "2026-06-01T00:00:00Z",
+      "issue_summary": "Node unreachable - NIC failure suspected",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1023",
+      "node_id": "node-017",
+      "provider": "InternalDC",
+      "opened_at": "2026-06-01T00:00:00Z",
+      "closed_at": "2026-06-03T00:00:00Z",
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 24
+    },
+    {
+      "ticket_id": "TCK-1024",
+      "node_id": "node-027",
+      "provider": "CoreWeave",
+      "opened_at": "2026-06-02T00:00:00Z",
+      "closed_at": "2026-06-04T00:00:00Z",
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 72
+    },
+    {
+      "ticket_id": "TCK-1025",
+      "node_id": "node-030",
+      "provider": "InternalDC",
+      "opened_at": "2026-06-02T00:00:00Z",
+      "closed_at": "2026-06-04T00:00:00Z",
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1026",
+      "node_id": "node-004",
+      "provider": "CoreWeave",
+      "opened_at": "2026-06-02T00:00:00Z",
+      "closed_at": "2026-06-04T00:00:00Z",
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1027",
+      "node_id": "node-025",
+      "provider": "InternalDC",
+      "opened_at": "2026-06-03T00:00:00Z",
+      "closed_at": "2026-06-05T00:00:00Z",
+      "issue_summary": "Disk I/O errors on local NVMe",
+      "sla_hours": 24
+    },
+    {
+      "ticket_id": "TCK-1028",
+      "node_id": "node-014",
+      "provider": "InternalDC",
+      "opened_at": "2026-06-03T00:00:00Z",
+      "closed_at": "2026-06-05T00:00:00Z",
+      "issue_summary": "Disk I/O errors on local NVMe",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1029",
+      "node_id": "node-036",
+      "provider": "CoreWeave",
+      "opened_at": "2026-06-04T00:00:00Z",
+      "closed_at": "2026-06-06T00:00:00Z",
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1030",
+      "node_id": "node-023",
+      "provider": "Crusoe",
+      "opened_at": "2026-06-04T00:00:00Z",
+      "closed_at": "2026-06-06T00:00:00Z",
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 24
+    },
+    {
+      "ticket_id": "TCK-1031",
+      "node_id": "node-007",
+      "provider": "CoreWeave",
+      "opened_at": "2026-06-04T00:00:00Z",
+      "closed_at": "2026-06-06T00:00:00Z",
+      "issue_summary": "Disk I/O errors on local NVMe",
+      "sla_hours": 72
+    },
+    {
+      "ticket_id": "TCK-1032",
+      "node_id": "node-005",
+      "provider": "Crusoe",
+      "opened_at": "2026-06-06T00:00:00Z",
+      "closed_at": "2026-06-08T00:00:00Z",
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 24
+    },
+    {
+      "ticket_id": "TCK-1033",
+      "node_id": "node-034",
+      "provider": "Crusoe",
+      "opened_at": "2026-06-06T00:00:00Z",
+      "closed_at": "2026-06-08T00:00:00Z",
+      "issue_summary": "Disk I/O errors on local NVMe",
+      "sla_hours": 24
+    },
+    {
+      "ticket_id": "TCK-1034",
+      "node_id": "node-019",
+      "provider": "Crusoe",
+      "opened_at": "2026-06-07T00:00:00Z",
+      "closed_at": "2026-06-09T00:00:00Z",
+      "issue_summary": "Memory ECC uncorrectable errors",
+      "sla_hours": 24
+    },
+    {
+      "ticket_id": "TCK-1035",
+      "node_id": "node-013",
+      "provider": "CoreWeave",
+      "opened_at": "2026-06-07T00:00:00Z",
+      "closed_at": "2026-06-09T00:00:00Z",
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1036",
+      "node_id": "node-026",
+      "provider": "InternalDC",
+      "opened_at": "2026-06-08T00:00:00Z",
+      "closed_at": "2026-06-10T00:00:00Z",
+      "issue_summary": "Disk I/O errors on local NVMe",
+      "sla_hours": 72
+    },
+    {
+      "ticket_id": "TCK-1037",
+      "node_id": "node-021",
+      "provider": "InternalDC",
+      "opened_at": "2026-06-08T00:00:00Z",
+      "closed_at": null,
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 24
+    },
+    {
+      "ticket_id": "TCK-1038",
+      "node_id": "node-022",
+      "provider": "InternalDC",
+      "opened_at": "2026-06-08T00:00:00Z",
+      "closed_at": null,
+      "issue_summary": "Node unreachable - NIC failure suspected",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1039",
+      "node_id": "node-011",
+      "provider": "Crusoe",
+      "opened_at": "2026-06-09T00:00:00Z",
+      "closed_at": "2026-06-11T00:00:00Z",
+      "issue_summary": "GPU ECC error rate exceeding threshold",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1040",
+      "node_id": "node-032",
+      "provider": "CoreWeave",
+      "opened_at": "2026-06-09T00:00:00Z",
+      "closed_at": "2026-06-11T00:00:00Z",
+      "issue_summary": "Node unreachable - NIC failure suspected",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1041",
+      "node_id": "node-007",
+      "provider": "CoreWeave",
+      "opened_at": "2026-06-09T00:00:00Z",
+      "closed_at": "2026-06-11T00:00:00Z",
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 48
+    },
+    {
+      "ticket_id": "TCK-1042",
+      "node_id": "node-020",
+      "provider": "InternalDC",
+      "opened_at": "2026-06-10T00:00:00Z",
+      "closed_at": null,
+      "issue_summary": "GPU ECC error rate exceeding threshold",
+      "sla_hours": 24
+    },
+    {
+      "ticket_id": "TCK-1043",
+      "node_id": "node-038",
+      "provider": "Lambda",
+      "opened_at": "2026-06-10T00:00:00Z",
+      "closed_at": null,
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 72
+    },
+    {
+      "ticket_id": "TCK-1044",
+      "node_id": "node-012",
+      "provider": "Lambda",
+      "opened_at": "2026-06-11T00:00:00Z",
+      "closed_at": null,
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 24
+    }
+  ]
+}

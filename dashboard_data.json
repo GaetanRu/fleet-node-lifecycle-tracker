@@ -1,0 +1,1374 @@
+{
+  "generated_at": "2026-06-12T13:22:25Z",
+  "state_distribution": {
+    "HEALTHY": 27,
+    "REPAIRED": 3,
+    "TICKETED": 1,
+    "DOWN": 2,
+    "DECOMMISSIONED": 2,
+    "IN_REPAIR": 4,
+    "REINTEGRATING": 1
+  },
+  "time_in_stage": [
+    {
+      "node_id": "node-002",
+      "datacenter": "DC-East-1",
+      "rack": "R03",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 720.0
+    },
+    {
+      "node_id": "node-003",
+      "datacenter": "DC-West-2",
+      "rack": "R04",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 720.0
+    },
+    {
+      "node_id": "node-006",
+      "datacenter": "DC-East-1",
+      "rack": "R07",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 720.0
+    },
+    {
+      "node_id": "node-024",
+      "datacenter": "DC-East-1",
+      "rack": "R01",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 720.0
+    },
+    {
+      "node_id": "node-028",
+      "datacenter": "DC-East-1",
+      "rack": "R05",
+      "gpu_type": "A100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 720.0
+    },
+    {
+      "node_id": "node-037",
+      "datacenter": "DC-West-2",
+      "rack": "R06",
+      "gpu_type": "A100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 720.0
+    },
+    {
+      "node_id": "node-039",
+      "datacenter": "DC-West-2",
+      "rack": "R08",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 720.0
+    },
+    {
+      "node_id": "node-016",
+      "datacenter": "DC-East-1",
+      "rack": "R01",
+      "gpu_type": "A100",
+      "current_state": "DECOMMISSIONED",
+      "hours_in_stage": 624.0
+    },
+    {
+      "node_id": "node-010",
+      "datacenter": "DC-East-1",
+      "rack": "R03",
+      "gpu_type": "A100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 600.0
+    },
+    {
+      "node_id": "node-015",
+      "datacenter": "DC-West-2",
+      "rack": "R08",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 456.0
+    },
+    {
+      "node_id": "node-029",
+      "datacenter": "DC-West-2",
+      "rack": "R06",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 456.0
+    },
+    {
+      "node_id": "node-031",
+      "datacenter": "DC-West-2",
+      "rack": "R08",
+      "gpu_type": "A100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 336.0
+    },
+    {
+      "node_id": "node-035",
+      "datacenter": "DC-West-2",
+      "rack": "R04",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 312.0
+    },
+    {
+      "node_id": "node-040",
+      "datacenter": "DC-East-1",
+      "rack": "R01",
+      "gpu_type": "A100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 312.0
+    },
+    {
+      "node_id": "node-009",
+      "datacenter": "DC-West-2",
+      "rack": "R02",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 288.0
+    },
+    {
+      "node_id": "node-018",
+      "datacenter": "DC-East-1",
+      "rack": "R03",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 264.0
+    },
+    {
+      "node_id": "node-033",
+      "datacenter": "DC-West-2",
+      "rack": "R02",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 264.0
+    },
+    {
+      "node_id": "node-001",
+      "datacenter": "DC-West-2",
+      "rack": "R02",
+      "gpu_type": "A100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 240.0
+    },
+    {
+      "node_id": "node-008",
+      "datacenter": "DC-East-1",
+      "rack": "R01",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 216.0
+    },
+    {
+      "node_id": "node-030",
+      "datacenter": "DC-East-1",
+      "rack": "R07",
+      "gpu_type": "H100",
+      "current_state": "DECOMMISSIONED",
+      "hours_in_stage": 192.0
+    },
+    {
+      "node_id": "node-017",
+      "datacenter": "DC-West-2",
+      "rack": "R02",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 168.0
+    },
+    {
+      "node_id": "node-004",
+      "datacenter": "DC-East-1",
+      "rack": "R05",
+      "gpu_type": "A100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 144.0
+    },
+    {
+      "node_id": "node-027",
+      "datacenter": "DC-West-2",
+      "rack": "R04",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 144.0
+    },
+    {
+      "node_id": "node-014",
+      "datacenter": "DC-East-1",
+      "rack": "R07",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 120.0
+    },
+    {
+      "node_id": "node-025",
+      "datacenter": "DC-West-2",
+      "rack": "R02",
+      "gpu_type": "A100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 120.0
+    },
+    {
+      "node_id": "node-023",
+      "datacenter": "DC-West-2",
+      "rack": "R08",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 96.0
+    },
+    {
+      "node_id": "node-036",
+      "datacenter": "DC-East-1",
+      "rack": "R05",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 96.0
+    },
+    {
+      "node_id": "node-021",
+      "datacenter": "DC-West-2",
+      "rack": "R06",
+      "gpu_type": "H100",
+      "current_state": "IN_REPAIR",
+      "hours_in_stage": 72.0
+    },
+    {
+      "node_id": "node-022",
+      "datacenter": "DC-East-1",
+      "rack": "R07",
+      "gpu_type": "A100",
+      "current_state": "IN_REPAIR",
+      "hours_in_stage": 72.0
+    },
+    {
+      "node_id": "node-005",
+      "datacenter": "DC-West-2",
+      "rack": "R06",
+      "gpu_type": "H100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 48.0
+    },
+    {
+      "node_id": "node-007",
+      "datacenter": "DC-West-2",
+      "rack": "R08",
+      "gpu_type": "A100",
+      "current_state": "REPAIRED",
+      "hours_in_stage": 24.0
+    },
+    {
+      "node_id": "node-011",
+      "datacenter": "DC-West-2",
+      "rack": "R04",
+      "gpu_type": "H100",
+      "current_state": "REPAIRED",
+      "hours_in_stage": 24.0
+    },
+    {
+      "node_id": "node-012",
+      "datacenter": "DC-East-1",
+      "rack": "R05",
+      "gpu_type": "H100",
+      "current_state": "TICKETED",
+      "hours_in_stage": 24.0
+    },
+    {
+      "node_id": "node-013",
+      "datacenter": "DC-West-2",
+      "rack": "R06",
+      "gpu_type": "A100",
+      "current_state": "DOWN",
+      "hours_in_stage": 24.0
+    },
+    {
+      "node_id": "node-019",
+      "datacenter": "DC-West-2",
+      "rack": "R04",
+      "gpu_type": "A100",
+      "current_state": "HEALTHY",
+      "hours_in_stage": 24.0
+    },
+    {
+      "node_id": "node-020",
+      "datacenter": "DC-East-1",
+      "rack": "R05",
+      "gpu_type": "H100",
+      "current_state": "IN_REPAIR",
+      "hours_in_stage": 24.0
+    },
+    {
+      "node_id": "node-026",
+      "datacenter": "DC-East-1",
+      "rack": "R03",
+      "gpu_type": "H100",
+      "current_state": "REINTEGRATING",
+      "hours_in_stage": 24.0
+    },
+    {
+      "node_id": "node-032",
+      "datacenter": "DC-East-1",
+      "rack": "R01",
+      "gpu_type": "H100",
+      "current_state": "REPAIRED",
+      "hours_in_stage": 24.0
+    },
+    {
+      "node_id": "node-034",
+      "datacenter": "DC-East-1",
+      "rack": "R03",
+      "gpu_type": "A100",
+      "current_state": "DOWN",
+      "hours_in_stage": 24.0
+    },
+    {
+      "node_id": "node-038",
+      "datacenter": "DC-East-1",
+      "rack": "R07",
+      "gpu_type": "H100",
+      "current_state": "IN_REPAIR",
+      "hours_in_stage": 24.0
+    }
+  ],
+  "utilization_loss": {
+    "daily_series": [
+      {
+        "date": "2026-05-13",
+        "gpu_hours_lost": 576.0
+      },
+      {
+        "date": "2026-05-14",
+        "gpu_hours_lost": 768.0
+      },
+      {
+        "date": "2026-05-15",
+        "gpu_hours_lost": 960.0
+      },
+      {
+        "date": "2026-05-16",
+        "gpu_hours_lost": 1152.0
+      },
+      {
+        "date": "2026-05-17",
+        "gpu_hours_lost": 960.0
+      },
+      {
+        "date": "2026-05-18",
+        "gpu_hours_lost": 384.0
+      },
+      {
+        "date": "2026-05-19",
+        "gpu_hours_lost": 768.0
+      },
+      {
+        "date": "2026-05-20",
+        "gpu_hours_lost": 768.0
+      },
+      {
+        "date": "2026-05-21",
+        "gpu_hours_lost": 768.0
+      },
+      {
+        "date": "2026-05-22",
+        "gpu_hours_lost": 768.0
+      },
+      {
+        "date": "2026-05-23",
+        "gpu_hours_lost": 768.0
+      },
+      {
+        "date": "2026-05-24",
+        "gpu_hours_lost": 768.0
+      },
+      {
+        "date": "2026-05-25",
+        "gpu_hours_lost": 1344.0
+      },
+      {
+        "date": "2026-05-26",
+        "gpu_hours_lost": 1728.0
+      },
+      {
+        "date": "2026-05-27",
+        "gpu_hours_lost": 2112.0
+      },
+      {
+        "date": "2026-05-28",
+        "gpu_hours_lost": 2304.0
+      },
+      {
+        "date": "2026-05-29",
+        "gpu_hours_lost": 2304.0
+      },
+      {
+        "date": "2026-05-30",
+        "gpu_hours_lost": 1920.0
+      },
+      {
+        "date": "2026-05-31",
+        "gpu_hours_lost": 1536.0
+      },
+      {
+        "date": "2026-06-01",
+        "gpu_hours_lost": 1344.0
+      },
+      {
+        "date": "2026-06-02",
+        "gpu_hours_lost": 1344.0
+      },
+      {
+        "date": "2026-06-03",
+        "gpu_hours_lost": 1728.0
+      },
+      {
+        "date": "2026-06-04",
+        "gpu_hours_lost": 1536.0
+      },
+      {
+        "date": "2026-06-05",
+        "gpu_hours_lost": 1728.0
+      },
+      {
+        "date": "2026-06-06",
+        "gpu_hours_lost": 1728.0
+      },
+      {
+        "date": "2026-06-07",
+        "gpu_hours_lost": 1920.0
+      },
+      {
+        "date": "2026-06-08",
+        "gpu_hours_lost": 1920.0
+      },
+      {
+        "date": "2026-06-09",
+        "gpu_hours_lost": 2304.0
+      },
+      {
+        "date": "2026-06-10",
+        "gpu_hours_lost": 2112.0
+      },
+      {
+        "date": "2026-06-11",
+        "gpu_hours_lost": 2112.0
+      }
+    ],
+    "total_gpu_hours_lost": 42432.0,
+    "by_node": {
+      "node-001": 960.0,
+      "node-002": 0.0,
+      "node-003": 0.0,
+      "node-004": 1920.0,
+      "node-005": 960.0,
+      "node-006": 0.0,
+      "node-007": 3072.0,
+      "node-008": 960.0,
+      "node-009": 1344.0,
+      "node-010": 960.0,
+      "node-011": 1728.0,
+      "node-012": 1344.0,
+      "node-013": 2112.0,
+      "node-014": 960.0,
+      "node-015": 960.0,
+      "node-016": 576.0,
+      "node-017": 1920.0,
+      "node-018": 960.0,
+      "node-019": 960.0,
+      "node-020": 576.0,
+      "node-021": 960.0,
+      "node-022": 1920.0,
+      "node-023": 960.0,
+      "node-024": 0.0,
+      "node-025": 2304.0,
+      "node-026": 1920.0,
+      "node-027": 2304.0,
+      "node-028": 0.0,
+      "node-029": 960.0,
+      "node-030": 576.0,
+      "node-031": 960.0,
+      "node-032": 768.0,
+      "node-033": 960.0,
+      "node-034": 1152.0,
+      "node-035": 1920.0,
+      "node-036": 960.0,
+      "node-037": 0.0,
+      "node-038": 576.0,
+      "node-039": 0.0,
+      "node-040": 960.0
+    }
+  },
+  "tickets": [
+    {
+      "ticket_id": "TCK-1000",
+      "node_id": "node-010",
+      "provider": "CoreWeave",
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 72,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1001",
+      "node_id": "node-004",
+      "provider": "Crusoe",
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 72,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1002",
+      "node_id": "node-011",
+      "provider": "CoreWeave",
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 24,
+      "elapsed_hours": 48.0,
+      "status": "closed_breached_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1003",
+      "node_id": "node-016",
+      "provider": "InternalDC",
+      "issue_summary": "Node unreachable - NIC failure suspected",
+      "sla_hours": 48,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1004",
+      "node_id": "node-027",
+      "provider": "Lambda",
+      "issue_summary": "Node unreachable - NIC failure suspected",
+      "sla_hours": 48,
+      "elapsed_hours": 96.0,
+      "status": "closed_breached_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1005",
+      "node_id": "node-035",
+      "provider": "Lambda",
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 72,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1006",
+      "node_id": "node-029",
+      "provider": "Crusoe",
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 72,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1007",
+      "node_id": "node-015",
+      "provider": "Crusoe",
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 72,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1008",
+      "node_id": "node-007",
+      "provider": "Lambda",
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 48,
+      "elapsed_hours": 96.0,
+      "status": "closed_breached_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1009",
+      "node_id": "node-017",
+      "provider": "Lambda",
+      "issue_summary": "Disk I/O errors on local NVMe",
+      "sla_hours": 72,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1010",
+      "node_id": "node-009",
+      "provider": "Lambda",
+      "issue_summary": "GPU ECC error rate exceeding threshold",
+      "sla_hours": 72,
+      "elapsed_hours": 96.0,
+      "status": "closed_breached_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1011",
+      "node_id": "node-031",
+      "provider": "InternalDC",
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 48,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1012",
+      "node_id": "node-025",
+      "provider": "Lambda",
+      "issue_summary": "Memory ECC uncorrectable errors",
+      "sla_hours": 24,
+      "elapsed_hours": 96.0,
+      "status": "closed_breached_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1013",
+      "node_id": "node-035",
+      "provider": "InternalDC",
+      "issue_summary": "Disk I/O errors on local NVMe",
+      "sla_hours": 48,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1014",
+      "node_id": "node-040",
+      "provider": "InternalDC",
+      "issue_summary": "GPU ECC error rate exceeding threshold",
+      "sla_hours": 24,
+      "elapsed_hours": 48.0,
+      "status": "closed_breached_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1015",
+      "node_id": "node-022",
+      "provider": "Crusoe",
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 72,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1016",
+      "node_id": "node-013",
+      "provider": "CoreWeave",
+      "issue_summary": "GPU ECC error rate exceeding threshold",
+      "sla_hours": 72,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1017",
+      "node_id": "node-033",
+      "provider": "CoreWeave",
+      "issue_summary": "GPU ECC error rate exceeding threshold",
+      "sla_hours": 48,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1018",
+      "node_id": "node-026",
+      "provider": "Crusoe",
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 24,
+      "elapsed_hours": 48.0,
+      "status": "closed_breached_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1019",
+      "node_id": "node-018",
+      "provider": "Crusoe",
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 24,
+      "elapsed_hours": 48.0,
+      "status": "closed_breached_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1020",
+      "node_id": "node-001",
+      "provider": "InternalDC",
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 72,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1021",
+      "node_id": "node-012",
+      "provider": "CoreWeave",
+      "issue_summary": "Node unreachable - NIC failure suspected",
+      "sla_hours": 24,
+      "elapsed_hours": 48.0,
+      "status": "closed_breached_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1022",
+      "node_id": "node-008",
+      "provider": "Crusoe",
+      "issue_summary": "Node unreachable - NIC failure suspected",
+      "sla_hours": 48,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1023",
+      "node_id": "node-017",
+      "provider": "InternalDC",
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 24,
+      "elapsed_hours": 48.0,
+      "status": "closed_breached_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1024",
+      "node_id": "node-027",
+      "provider": "CoreWeave",
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 72,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1025",
+      "node_id": "node-030",
+      "provider": "InternalDC",
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 48,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1026",
+      "node_id": "node-004",
+      "provider": "CoreWeave",
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 48,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1027",
+      "node_id": "node-025",
+      "provider": "InternalDC",
+      "issue_summary": "Disk I/O errors on local NVMe",
+      "sla_hours": 24,
+      "elapsed_hours": 48.0,
+      "status": "closed_breached_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1028",
+      "node_id": "node-014",
+      "provider": "InternalDC",
+      "issue_summary": "Disk I/O errors on local NVMe",
+      "sla_hours": 48,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1029",
+      "node_id": "node-036",
+      "provider": "CoreWeave",
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 48,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1030",
+      "node_id": "node-023",
+      "provider": "Crusoe",
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 24,
+      "elapsed_hours": 48.0,
+      "status": "closed_breached_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1031",
+      "node_id": "node-007",
+      "provider": "CoreWeave",
+      "issue_summary": "Disk I/O errors on local NVMe",
+      "sla_hours": 72,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1032",
+      "node_id": "node-005",
+      "provider": "Crusoe",
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 24,
+      "elapsed_hours": 48.0,
+      "status": "closed_breached_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1033",
+      "node_id": "node-034",
+      "provider": "Crusoe",
+      "issue_summary": "Disk I/O errors on local NVMe",
+      "sla_hours": 24,
+      "elapsed_hours": 48.0,
+      "status": "closed_breached_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1034",
+      "node_id": "node-019",
+      "provider": "Crusoe",
+      "issue_summary": "Memory ECC uncorrectable errors",
+      "sla_hours": 24,
+      "elapsed_hours": 48.0,
+      "status": "closed_breached_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1035",
+      "node_id": "node-013",
+      "provider": "CoreWeave",
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 48,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1036",
+      "node_id": "node-026",
+      "provider": "InternalDC",
+      "issue_summary": "Disk I/O errors on local NVMe",
+      "sla_hours": 72,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1037",
+      "node_id": "node-021",
+      "provider": "InternalDC",
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 24,
+      "elapsed_hours": 96.0,
+      "status": "breached",
+      "closed": false
+    },
+    {
+      "ticket_id": "TCK-1038",
+      "node_id": "node-022",
+      "provider": "InternalDC",
+      "issue_summary": "Node unreachable - NIC failure suspected",
+      "sla_hours": 48,
+      "elapsed_hours": 96.0,
+      "status": "breached",
+      "closed": false
+    },
+    {
+      "ticket_id": "TCK-1039",
+      "node_id": "node-011",
+      "provider": "Crusoe",
+      "issue_summary": "GPU ECC error rate exceeding threshold",
+      "sla_hours": 48,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1040",
+      "node_id": "node-032",
+      "provider": "CoreWeave",
+      "issue_summary": "Node unreachable - NIC failure suspected",
+      "sla_hours": 48,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1041",
+      "node_id": "node-007",
+      "provider": "CoreWeave",
+      "issue_summary": "Thermal throttling detected on GPU 3",
+      "sla_hours": 48,
+      "elapsed_hours": 48.0,
+      "status": "closed_within_sla",
+      "closed": true
+    },
+    {
+      "ticket_id": "TCK-1042",
+      "node_id": "node-020",
+      "provider": "InternalDC",
+      "issue_summary": "GPU ECC error rate exceeding threshold",
+      "sla_hours": 24,
+      "elapsed_hours": 48.0,
+      "status": "breached",
+      "closed": false
+    },
+    {
+      "ticket_id": "TCK-1043",
+      "node_id": "node-038",
+      "provider": "Lambda",
+      "issue_summary": "Power supply unit fault",
+      "sla_hours": 72,
+      "elapsed_hours": 48.0,
+      "status": "on_track",
+      "closed": false
+    },
+    {
+      "ticket_id": "TCK-1044",
+      "node_id": "node-012",
+      "provider": "Lambda",
+      "issue_summary": "NVLink degradation across 2 GPUs",
+      "sla_hours": 24,
+      "elapsed_hours": 24.0,
+      "status": "at_risk",
+      "closed": false
+    }
+  ],
+  "datacenter_summary": {
+    "DC-West-2": {
+      "HEALTHY": 16,
+      "_total": 20,
+      "REPAIRED": 2,
+      "DOWN": 1,
+      "IN_REPAIR": 1
+    },
+    "DC-East-1": {
+      "HEALTHY": 11,
+      "_total": 20,
+      "TICKETED": 1,
+      "DECOMMISSIONED": 2,
+      "IN_REPAIR": 3,
+      "REINTEGRATING": 1,
+      "REPAIRED": 1,
+      "DOWN": 1
+    }
+  },
+  "nodes": [
+    {
+      "node_id": "node-001",
+      "rack": "R02",
+      "datacenter": "DC-West-2",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-02T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-002",
+      "rack": "R03",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-13T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-003",
+      "rack": "R04",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-13T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-004",
+      "rack": "R05",
+      "datacenter": "DC-East-1",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-06T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-005",
+      "rack": "R06",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-10T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-006",
+      "rack": "R07",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-13T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-007",
+      "rack": "R08",
+      "datacenter": "DC-West-2",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "REPAIRED",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-008",
+      "rack": "R01",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-03T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-009",
+      "rack": "R02",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-31T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-010",
+      "rack": "R03",
+      "datacenter": "DC-East-1",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-18T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-011",
+      "rack": "R04",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "REPAIRED",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-012",
+      "rack": "R05",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "TICKETED",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-013",
+      "rack": "R06",
+      "datacenter": "DC-West-2",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "DOWN",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-014",
+      "rack": "R07",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-07T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-015",
+      "rack": "R08",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-24T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-016",
+      "rack": "R01",
+      "datacenter": "DC-East-1",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "DECOMMISSIONED",
+      "state_since": "2026-05-17T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-017",
+      "rack": "R02",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-05T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-018",
+      "rack": "R03",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-01T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-019",
+      "rack": "R04",
+      "datacenter": "DC-West-2",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-020",
+      "rack": "R05",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "IN_REPAIR",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-021",
+      "rack": "R06",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "IN_REPAIR",
+      "state_since": "2026-06-09T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-022",
+      "rack": "R07",
+      "datacenter": "DC-East-1",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "IN_REPAIR",
+      "state_since": "2026-06-09T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-023",
+      "rack": "R08",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-08T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-024",
+      "rack": "R01",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-13T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-025",
+      "rack": "R02",
+      "datacenter": "DC-West-2",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-07T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-026",
+      "rack": "R03",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "REINTEGRATING",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-027",
+      "rack": "R04",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-06T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-028",
+      "rack": "R05",
+      "datacenter": "DC-East-1",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-13T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-029",
+      "rack": "R06",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-24T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-030",
+      "rack": "R07",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "DECOMMISSIONED",
+      "state_since": "2026-06-04T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-031",
+      "rack": "R08",
+      "datacenter": "DC-West-2",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-29T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-032",
+      "rack": "R01",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "REPAIRED",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-033",
+      "rack": "R02",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-01T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-034",
+      "rack": "R03",
+      "datacenter": "DC-East-1",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "DOWN",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-035",
+      "rack": "R04",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-30T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-036",
+      "rack": "R05",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-06-08T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-037",
+      "rack": "R06",
+      "datacenter": "DC-West-2",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-13T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-038",
+      "rack": "R07",
+      "datacenter": "DC-East-1",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "IN_REPAIR",
+      "state_since": "2026-06-11T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-039",
+      "rack": "R08",
+      "datacenter": "DC-West-2",
+      "gpu_type": "H100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-13T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    },
+    {
+      "node_id": "node-040",
+      "rack": "R01",
+      "datacenter": "DC-East-1",
+      "gpu_type": "A100",
+      "gpu_count": 8,
+      "current_state": "HEALTHY",
+      "state_since": "2026-05-30T00:00:00Z",
+      "created_at": "2026-05-13T00:00:00Z"
+    }
+  ]
+}
