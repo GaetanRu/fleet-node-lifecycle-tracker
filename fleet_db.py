@@ -26,6 +26,11 @@ from pathlib import Path
 
 DB_PATH = Path(__file__).parent / "fleet.db"
 
+# Simulation window used by generate_sample_data.py and analytics.py.
+SIMULATION_START = datetime(2026, 5, 13, 0, 0, 0)
+SIMULATION_DAYS = 30
+SIMULATION_AS_OF = SIMULATION_START + timedelta(days=SIMULATION_DAYS)
+
 
 class NodeState(str, Enum):
     HEALTHY = "HEALTHY"
@@ -262,11 +267,19 @@ def get_all_tickets():
     return [dict(r) for r in rows]
 
 
-def export_snapshot():
+def export_snapshot(as_of=None):
     """Export a full JSON snapshot of nodes, transitions, and tickets -
-    this is what the dashboard front-end consumes."""
+    this is what the dashboard front-end consumes.
+
+    as_of sets generated_at (the dashboard "data as of" time). Defaults to
+    SIMULATION_AS_OF so metrics stay aligned with the sample-data window.
+    """
+    if as_of is not None:
+        generated_at = as_of.isoformat(timespec="seconds") + "Z"
+    else:
+        generated_at = SIMULATION_AS_OF.isoformat(timespec="seconds") + "Z"
     return {
-        "generated_at": _now_iso(),
+        "generated_at": generated_at,
         "nodes": get_all_nodes(),
         "transitions": get_all_transitions(),
         "tickets": get_all_tickets(),

@@ -19,6 +19,9 @@ from fleet_db import (
     close_ticket,
     NodeState,
     export_snapshot,
+    SIMULATION_START,
+    SIMULATION_DAYS,
+    SIMULATION_AS_OF,
 )
 import json
 from pathlib import Path
@@ -31,7 +34,6 @@ GPU_TYPES = ["H100", "A100", "H100"]  # weighted toward H100
 PROVIDERS = ["CoreWeave", "Lambda", "Crusoe", "InternalDC"]
 
 NUM_NODES = 40
-SIM_DAYS = 30
 
 
 def iso(dt):
@@ -41,7 +43,7 @@ def iso(dt):
 def main():
     init_db(reset=True)
 
-    start = datetime(2026, 5, 13, 0, 0, 0)  # 30 days before "today" (Jun 12, 2026)
+    start = SIMULATION_START
 
     # 1. Provision all nodes as HEALTHY at simulation start
     for i in range(1, NUM_NODES + 1):
@@ -59,7 +61,7 @@ def main():
     in_flight = {}  # node_id -> dict with ticket info / next-step timing
     ticket_counter = 1000
 
-    for day in range(SIM_DAYS):
+    for day in range(SIMULATION_DAYS):
         current_day = start + timedelta(days=day)
 
         # --- Advance in-flight repairs ---
@@ -192,12 +194,12 @@ def main():
             }
 
     # 3. Export snapshot for the dashboard
-    snapshot = export_snapshot()
+    snapshot = export_snapshot(as_of=SIMULATION_AS_OF)
     out_path = Path(__file__).parent / "fleet_snapshot.json"
     with open(out_path, "w") as f:
         json.dump(snapshot, f, indent=2)
 
-    print(f"Simulated {SIM_DAYS} days across {NUM_NODES} nodes.")
+    print(f"Simulated {SIMULATION_DAYS} days across {NUM_NODES} nodes.")
     print(f"Total transitions: {len(snapshot['transitions'])}")
     print(f"Total tickets: {len(snapshot['tickets'])}")
     print(f"Open tickets: {sum(1 for t in snapshot['tickets'] if t['closed_at'] is None)}")
