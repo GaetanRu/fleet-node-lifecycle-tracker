@@ -6,186 +6,242 @@
   <title>Fleet Node Lifecycle Dashboard</title>
   <style>
     :root {
-      --bg-primary: #ffffff;
-      --bg-secondary: #f5f4f0;
-      --bg-tertiary: #ebe9e3;
-      --bg-success: #EAF3DE;
-      --bg-warning: #FAEEDA;
-      --bg-danger: #FCEBEB;
-      --bg-info: #E6F1FB;
-      --text-primary: #2C2C2A;
-      --text-secondary: #5F5E5A;
-      --text-tertiary: #888780;
-      --text-success: #27500A;
-      --text-warning: #854F0B;
-      --text-danger: #791F1F;
-      --text-info: #0C447C;
-      --border-tertiary: rgba(44, 44, 42, 0.1);
+      /* Surfaces */
+      --bg-page:      #F1F5FA;
+      --bg-primary:   #FFFFFF;
+      --bg-secondary: #E8EDF6;
+      --bg-tertiary:  #D4DAE8;
+
+      /* Status */
+      --bg-success: #D1FAE5;
+      --bg-warning: #FEF3C7;
+      --bg-danger:  #FFE4E6;
+      --bg-info:    #DBEAFE;
+
+      /* Text */
+      --text-primary:   #0C1425;
+      --text-secondary: #455A78;
+      --text-tertiary:  #8EA4BC;
+      --text-success:   #065F46;
+      --text-warning:   #92400E;
+      --text-danger:    #9F1239;
+      --text-info:      #1E40AF;
+
+      /* Structure */
+      --border-color: rgba(12, 20, 37, 0.09);
       --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       --font-mono: "SF Mono", "Roboto Mono", Consolas, "Courier New", monospace;
-      --radius-md: 8px;
+      --radius: 10px;
     }
 
     @media (prefers-color-scheme: dark) {
       :root {
-        --bg-primary: #1c1c1a;
-        --bg-secondary: #2c2c2a;
-        --bg-tertiary: #3a3a37;
-        --bg-success: #173404;
-        --bg-warning: #412402;
-        --bg-danger: #501313;
-        --bg-info: #042C53;
-        --text-primary: #F1EFE8;
-        --text-secondary: #B4B2A9;
-        --text-tertiary: #888780;
-        --text-success: #97C459;
-        --text-warning: #FAC775;
-        --text-danger: #F09595;
-        --text-info: #85B7EB;
-        --border-tertiary: rgba(241, 239, 232, 0.1);
+        --bg-page:      #07101E;
+        --bg-primary:   #0F1C30;
+        --bg-secondary: #172538;
+        --bg-tertiary:  #1E2F48;
+
+        --bg-success: #052E16;
+        --bg-warning: #451A03;
+        --bg-danger:  #4C0519;
+        --bg-info:    #0C2A4E;
+
+        --text-primary:   #DDE9F8;
+        --text-secondary: #7898BB;
+        --text-tertiary:  #3D5E82;
+        --text-success:   #34D399;
+        --text-warning:   #FBBF24;
+        --text-danger:    #F87171;
+        --text-info:      #60A5FA;
+
+        --border-color: rgba(220, 233, 248, 0.08);
       }
     }
 
     * { box-sizing: border-box; }
+    h1, h2 { margin: 0; font-weight: inherit; }
 
     body {
       margin: 0;
-      padding: 2rem;
-      background: var(--bg-primary);
+      padding: 2.5rem 2rem 5rem;
+      background: var(--bg-page);
       color: var(--text-primary);
       font-family: var(--font-sans);
       line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
     }
 
-    .container { max-width: 900px; margin: 0 auto; }
+    .container { max-width: 1040px; margin: 0 auto; }
 
-    .topbar {
-      font-family: var(--font-mono);
-      font-size: 12px;
-      color: var(--text-tertiary);
-      margin-bottom: 1.5rem;
+    /* ── Header ──────────────────────────────────────── */
+    .page-header {
       display: flex;
       justify-content: space-between;
-      align-items: baseline;
-      flex-wrap: wrap;
-      gap: 4px;
+      align-items: flex-start;
+      gap: 1.5rem;
+      margin-bottom: 2.25rem;
     }
 
+    .header-title { flex: 1; min-width: 0; }
+
     h1 {
-      font-size: 22px;
-      font-weight: 500;
-      margin: 0 0 0.25rem;
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 0.35rem;
     }
 
     .subtitle {
       font-size: 14px;
       color: var(--text-secondary);
-      margin: 0 0 1.5rem;
+      margin: 0;
     }
 
+    .generated-at {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-tertiary);
+      white-space: nowrap;
+      padding-top: 7px;
+      flex-shrink: 0;
+    }
+
+    /* ── Section label ───────────────────────────────── */
+    .section-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-tertiary);
+      margin: 2.5rem 0 1rem;
+    }
+
+    .two-col .section-label { margin-top: 0; }
+
+    /* ── Metrics ─────────────────────────────────────── */
     .metrics-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 12px;
-      margin-bottom: 1.5rem;
+      gap: 10px;
     }
 
     .metric-card {
-      background: var(--bg-secondary);
-      border-radius: var(--radius-md);
-      padding: 1rem;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 1.25rem;
     }
 
     .metric-label {
-      font-size: 13px;
-      color: var(--text-secondary);
-      margin: 0 0 4px;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: var(--text-tertiary);
+      margin: 0 0 0.65rem;
     }
 
     .metric-value {
-      font-size: 24px;
-      font-weight: 500;
-      margin: 0;
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      margin: 0 0 6px;
       font-family: var(--font-mono);
+      line-height: 1;
     }
 
     .metric-sub {
       font-size: 12px;
       color: var(--text-tertiary);
-      margin: 4px 0 0;
+      margin: 0;
     }
 
-    .section-label {
-      font-size: 13px;
-      color: var(--text-secondary);
-      margin: 0 0 8px;
-      font-weight: 500;
-    }
-
+    /* ── Pipeline ────────────────────────────────────── */
     .pipeline {
       display: flex;
-      gap: 6px;
-      margin-bottom: 1.5rem;
+      gap: 5px;
       overflow-x: auto;
+      padding-bottom: 2px;
     }
 
     .pipeline-cell {
       flex: 1;
-      min-width: 90px;
-      border-radius: var(--radius-md);
-      padding: 10px 8px;
+      min-width: 92px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border-color);
+      padding: 14px 10px 12px;
       text-align: center;
     }
 
     .pipeline-count {
-      font-size: 20px;
-      font-weight: 500;
+      font-size: 24px;
+      font-weight: 700;
       font-family: var(--font-mono);
+      line-height: 1;
+      letter-spacing: -0.03em;
     }
 
     .pipeline-label {
-      font-size: 11px;
-      margin-top: 2px;
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 6px;
+    }
+
+    /* ── Chart ───────────────────────────────────────── */
+    .chart-card {
+      background: var(--bg-primary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
     }
 
     .chart-wrap {
       position: relative;
       width: 100%;
-      height: 200px;
-      margin-bottom: 1.5rem;
+      height: 180px;
     }
 
+    /* ── Two-col ─────────────────────────────────────── */
     .two-col {
       display: grid;
-      grid-template-columns: 1.1fr 1fr;
+      grid-template-columns: 1.2fr 1fr;
       gap: 16px;
-      margin-bottom: 1.5rem;
+      margin-top: 2.5rem;
     }
 
+    /* ── Tickets ─────────────────────────────────────── */
     .ticket-row {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 8px;
-      padding: 8px 10px;
-      background: var(--bg-secondary);
-      border-radius: var(--radius-md);
+      gap: 12px;
+      padding: 10px 12px;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
       font-size: 12px;
       margin-bottom: 6px;
+      transition: border-color 0.15s;
     }
+
+    .ticket-row:hover { border-color: var(--text-tertiary); }
 
     .ticket-main { min-width: 0; }
 
     .ticket-id {
       font-family: var(--font-mono);
-      font-weight: 500;
+      font-weight: 600;
+      color: var(--text-primary);
     }
 
     .ticket-node { color: var(--text-tertiary); }
 
     .ticket-issue {
       color: var(--text-secondary);
-      margin-top: 2px;
+      margin-top: 3px;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
@@ -195,50 +251,78 @@
 
     .badge {
       font-size: 11px;
-      padding: 2px 8px;
-      border-radius: var(--radius-md);
-      font-weight: 500;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 20px;
       display: inline-block;
+      letter-spacing: 0.01em;
     }
 
     .ticket-sla {
       color: var(--text-tertiary);
-      margin-top: 2px;
+      margin-top: 4px;
       font-family: var(--font-mono);
+      font-size: 11px;
     }
 
+    /* ── Datacenter ──────────────────────────────────── */
     .dc-card {
-      background: var(--bg-secondary);
-      border-radius: var(--radius-md);
-      padding: 10px 12px;
-      margin-bottom: 10px;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      margin-bottom: 8px;
     }
 
     .dc-header {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      margin-bottom: 4px;
-      font-family: var(--font-mono);
+      margin-bottom: 10px;
       font-size: 13px;
+      font-weight: 600;
+    }
+
+    .dc-header span:last-child {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-secondary);
+      font-weight: 400;
     }
 
     .dc-bar-track {
-      height: 6px;
+      height: 5px;
       background: var(--bg-tertiary);
       border-radius: 3px;
       overflow: hidden;
-      margin-bottom: 4px;
+      margin-bottom: 8px;
     }
 
     .dc-bar-fill {
       height: 100%;
-      background: var(--text-success);
+      background: var(--text-info);
+      border-radius: 3px;
     }
 
     .dc-issues {
       font-size: 11px;
       color: var(--text-tertiary);
+      line-height: 1.65;
+    }
+
+    /* ── Node table ──────────────────────────────────── */
+    .node-table-header {
+      display: grid;
+      grid-template-columns: 90px 1fr 70px 110px 90px;
+      gap: 8px;
+      padding: 0 12px 8px;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-tertiary);
+      border-bottom: 1px solid var(--border-color);
+      margin-bottom: 6px;
     }
 
     .node-row {
@@ -246,25 +330,36 @@
       grid-template-columns: 90px 1fr 70px 110px 90px;
       align-items: center;
       gap: 8px;
-      padding: 6px 10px;
+      padding: 9px 12px;
       font-size: 12px;
-      border-radius: var(--radius-md);
-      background: var(--bg-secondary);
+      border-radius: var(--radius);
+      background: var(--bg-primary);
+      border: 1px solid var(--border-color);
       margin-bottom: 4px;
+      transition: border-color 0.15s;
     }
 
-    .node-id { font-family: var(--font-mono); font-weight: 500; }
+    .node-row:hover { border-color: var(--text-tertiary); }
+
+    .node-id { font-family: var(--font-mono); font-weight: 600; }
     .node-loc { color: var(--text-secondary); }
-    .node-gpu { color: var(--text-tertiary); }
+    .node-gpu { color: var(--text-tertiary); font-size: 11px; }
     .node-hours {
       font-family: var(--font-mono);
+      font-size: 11px;
       text-align: right;
-      color: var(--text-secondary);
+      color: var(--text-tertiary);
     }
 
+    /* ── Responsive ──────────────────────────────────── */
     @media (max-width: 640px) {
+      body { padding: 1.5rem 1rem 4rem; }
+      h1 { font-size: 24px; }
+      .page-header { flex-direction: column; gap: 0.25rem; }
+      .generated-at { padding-top: 0; }
       .metrics-grid { grid-template-columns: repeat(2, 1fr); }
       .two-col { grid-template-columns: 1fr; }
+      .node-table-header { display: none; }
       .node-row {
         grid-template-columns: 80px 1fr 90px;
         grid-template-areas: "id state hours" "loc loc loc";
@@ -280,42 +375,49 @@
 <body>
   <div class="container">
 
-    <div class="topbar">
-      <span>fleet-ops / node-lifecycle / snapshot</span>
-      <span id="generatedAt"></span>
-    </div>
-
-    <h1>Fleet node lifecycle dashboard</h1>
-    <p class="subtitle">
-      GPU fleet health, utilization loss, and repair ticket tracking across 2 datacenters
-    </p>
+    <header class="page-header">
+      <div class="header-title">
+        <h1>Fleet node lifecycle</h1>
+        <p class="subtitle">GPU fleet health and repair tracking across 2 datacenters</p>
+      </div>
+      <span id="generatedAt" class="generated-at"></span>
+    </header>
 
     <div class="metrics-grid" id="metricsGrid"></div>
 
-    <p class="section-label">Node lifecycle pipeline</p>
+    <h2 class="section-label">Node lifecycle pipeline</h2>
     <div class="pipeline" id="pipeline"></div>
 
-    <p class="section-label">GPU-hours lost to downtime, last 30 days</p>
-    <div class="chart-wrap">
-      <canvas
-        id="lossChart"
-        role="img"
-        aria-label="Line chart showing GPU hours lost per day over the last 30 days"
-      ></canvas>
+    <h2 class="section-label">GPU-hours lost to downtime, last 30 days</h2>
+    <div class="chart-card">
+      <div class="chart-wrap">
+        <canvas
+          id="lossChart"
+          role="img"
+          aria-label="Line chart showing GPU hours lost per day over the last 30 days"
+        ></canvas>
+      </div>
     </div>
 
     <div class="two-col">
       <div>
-        <p class="section-label">Open tickets by SLA status</p>
+        <h2 class="section-label">Open tickets by SLA status</h2>
         <div id="ticketList"></div>
       </div>
       <div>
-        <p class="section-label">Datacenter breakdown</p>
+        <h2 class="section-label">Datacenter breakdown</h2>
         <div id="dcSummary"></div>
       </div>
     </div>
 
-    <p class="section-label">Nodes requiring attention</p>
+    <h2 class="section-label">Nodes requiring attention</h2>
+    <div class="node-table-header">
+      <span>Node</span>
+      <span>Location / Rack</span>
+      <span>GPU</span>
+      <span>State</span>
+      <span style="text-align:right">In stage</span>
+    </div>
     <div id="nodeTable"></div>
 
   </div>
@@ -1301,7 +1403,7 @@
       new Chart(document.getElementById('lossChart'), {
         type: 'line',
         data: {
-          labels: series.map((d) => d.date.slice(5)),
+          labels: series.map((d) => { const [,m,day] = d.date.split('-'); return ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][+m-1]+'-'+day; }),
           datasets: [{
             label: 'GPU-hours lost',
             data: series.map((d) => d.gpu_hours_lost),
