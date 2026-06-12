@@ -1,6 +1,6 @@
 # Fleet Node Lifecycle Tracker
 
-**Live dashboard**: https://GaetanRu.github.io/fleet-node-lifecycle-tracker/dashboard.html
+**Live dashboard**: https://GaetanRu.github.io/fleet-node-lifecycle-tracker/
 
 A state-machine-based tracking system that models the lifecycle of GPU
 compute nodes — from failure through ticketing, repair, and re-integration —
@@ -44,7 +44,7 @@ python3 analytics.py             # compute dashboard_data.json
 
 ## Files
 
-- `dashboard.html` - standalone dashboard (the live demo above)
+- `index.html` - standalone dashboard (the live demo above)
 - `fleet_db.py` - schema, state machine, and CRUD operations
 - `generate_sample_data.py` - 30-day fleet simulation
 - `analytics.py` - metrics computation for the dashboard
